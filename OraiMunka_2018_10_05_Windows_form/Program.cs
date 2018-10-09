@@ -16,7 +16,7 @@ namespace OraiMunka_2018_10_05_Windows_form
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Form_adadt_bevitel());
         }
     }
 }

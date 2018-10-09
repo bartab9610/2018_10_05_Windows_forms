@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace OraiMunka_2018_10_05_Windows_form
 {
-    public partial class Form1 : Form
+    public partial class Form_adadt_bevitel : Form
     {
-        public Form1()
+        public Form_adadt_bevitel()
         {
             InitializeComponent();
         }
