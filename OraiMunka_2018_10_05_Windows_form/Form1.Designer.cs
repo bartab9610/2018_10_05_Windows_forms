@@ -50,6 +50,7 @@
             this.Button_Sor_hozzaadas.TabIndex = 1;
             this.Button_Sor_hozzaadas.Text = "Sor hozzáadása";
             this.Button_Sor_hozzaadas.UseVisualStyleBackColor = true;
+            this.Button_Sor_hozzaadas.Click += new System.EventHandler(this.Button_Sor_hozzaadas_Click);
             // 
             // Button_kiiratas
             // 
@@ -65,14 +66,15 @@
             // 
             this.DateTimePicker_szul_ido.Location = new System.Drawing.Point(194, 55);
             this.DateTimePicker_szul_ido.Name = "DateTimePicker_szul_ido";
-            this.DateTimePicker_szul_ido.Size = new System.Drawing.Size(200, 22);
+            this.DateTimePicker_szul_ido.Size = new System.Drawing.Size(232, 22);
             this.DateTimePicker_szul_ido.TabIndex = 3;
             // 
             // Form_adadt_bevitel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(406, 100);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(438, 124);
             this.Controls.Add(this.DateTimePicker_szul_ido);
             this.Controls.Add(this.Button_kiiratas);
             this.Controls.Add(this.Button_Sor_hozzaadas);
