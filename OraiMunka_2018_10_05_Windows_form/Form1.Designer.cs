@@ -61,10 +61,11 @@
             this.Button_kiiratas.TabIndex = 2;
             this.Button_kiiratas.Text = "Kiíratás";
             this.Button_kiiratas.UseVisualStyleBackColor = true;
+            this.Button_kiiratas.Click += new System.EventHandler(this.Button_kiiratas_Click);
             // 
             // DateTimePicker_szul_ido
             // 
-            this.DateTimePicker_szul_ido.Location = new System.Drawing.Point(194, 55);
+            this.DateTimePicker_szul_ido.Location = new System.Drawing.Point(196, 55);
             this.DateTimePicker_szul_ido.Name = "DateTimePicker_szul_ido";
             this.DateTimePicker_szul_ido.Size = new System.Drawing.Size(232, 22);
             this.DateTimePicker_szul_ido.TabIndex = 3;
